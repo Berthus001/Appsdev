@@ -1,0 +1,5 @@
+User_Input = input("Enter a string: ")
+Replace =  input("Enter the substring to replace: ")
+ReplaceWith = input("Enter the new substring: ")
+New_String = User_Input.replace(Replace,ReplaceWith)
+print(New_String)
